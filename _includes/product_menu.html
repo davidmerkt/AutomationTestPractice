@@ -1,0 +1,13 @@
+<h2>Components</h2>
+<ul>
+{% for component in site.components %}
+<li><a href="{{ component.url }}">{{ component.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Bikes</h2>
+<ul>
+{% for bike in site.bikes %}
+<li><a href="{{ bike.url }}">{{ bike.title }}</a></li>
+{% endfor %}
+</ul>
